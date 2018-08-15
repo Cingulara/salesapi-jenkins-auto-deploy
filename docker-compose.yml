@@ -1,0 +1,14 @@
+version : '3'
+ 
+services:
+  salesapi:
+    image: salesapi
+    ports:
+      - 9006:8080
+    depends_on:
+      - salesapidb
+  
+  salesapidb:
+    image: salesapidb
+    ports:
+      - 27017
