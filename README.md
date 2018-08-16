@@ -1,4 +1,4 @@
-# Client API using Java Spring Boot and MongoDB
+# Sales API using Java Spring Boot and MongoDB
 This is a single Java Spring Boot API microservice with MongoDB backend as a POC. It was started with the Spring Initialzr https://start.spring.io.  It is to show how to do a single API around a particular domain with a database that is its own in a separate programming language and database server. This requires Docker, Java v 8.0 or later, and a web browser to run. Optionally you can use a SQL tool such as mongo-express to view the database if you so desire.
 
 There is a docker-compose YAML file in here to bring up both containers correctly once they are built. And the Jenkinsfile is setup to deploy to OpenShift automatically.
